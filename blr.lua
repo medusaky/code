@@ -1,6 +1,5 @@
 local codes = {
-    "KURONANOW",
-    "SHARKBOY"
+    "KAISERSOON"
 }
 
 local remote = game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("Redeem")
