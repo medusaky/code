@@ -1,5 +1,6 @@
 local codes = {
-    "KAISER2M"
+    "KAISER2M",
+    "MIRO1MCCU"
 }
 
 local remote = game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("Redeem")
