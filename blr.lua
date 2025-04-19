@@ -6,12 +6,13 @@ local codes = {
     "KING1.5M",
     "2BVISITS!",
     "THEMONK!",
-    "IGAGOAT1.8M!"
+    "IGAGOAT1.8M!",
+    "EASTER25!"
 }
 
 local remote = game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("CodesService"):WaitForChild("RF"):WaitForChild("Redeem")
 
 for _, code in ipairs(codes) do
     remote:InvokeServer(code)
-    task.wait(1)
+    task.wait(.1)
 end
